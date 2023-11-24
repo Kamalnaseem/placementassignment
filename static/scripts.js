@@ -1,3 +1,10 @@
+//An arraylist that contains stocks names
+const stocks = {
+  stocks: ['MSFT', 'AAPL', 'FB', 'EA', 'IBM'],
+};
+//printing stocks in console
+console.log('Stock Data:', stocks);
+
 const canvas = document.getElementById('chart')
 const ctx = canvas.getContext('2d')
 

@@ -1,10 +1,17 @@
 .spinner{
   font-size: 140px;
+  display: inline-block;
+  animation: spin 2s linear infinite;
 }
 .spinner:after {
   content: '◌';
 }
-
+/*an animation that rotates 360 degrees*/
+@keyframes spin {
+  to{ 
+   transform: rotate(360deg);
+  } 
+}
 #chart {
     border: 1px solid black;
 }
