@@ -2,7 +2,7 @@
 const stocks = {
   stocks: ['MSFT', 'AAPL', 'FB', 'EA', 'IBM'],
 };
-//printing stocks in console
+//prints stocks in console
 console.log('Stock Data:', stocks);
 
 const canvas = document.getElementById('chart')
